@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Pro%20Premium%20Cursors&fontSize=58&fontAlignY=35&desc=Dark%20Glass%20%7C%20Cyan%20Glow%20%7C%20Animated%20Spinners&descAlignY=62" alt="Pro Premium Cursors" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Pro%20Premium%20Cursors&fontSize=58&fontAlignY=35&desc=macOS%20Style%20%7C%20Fully%20Rounded%20%7C%20Beach%20Ball%20Busy&descAlignY=62" alt="Pro Premium Cursors" width="100%"/>
 
 # 🖱️ Pro Premium Cursors
 
