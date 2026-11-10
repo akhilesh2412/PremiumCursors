@@ -13,7 +13,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Cursors](https://img.shields.io/badge/Cursors-17%20Complete-38BDF8?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-2.0.0-E11D48?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-3.0.0-E11D48?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
 
 <br/>
@@ -65,15 +65,17 @@ Copy the `.cur` / `.ani` files anywhere and assign them one-by-one in *Mouse Pro
 
 ---
 
-## ✨ Design — v2 Aurora Premium
+## ✨ Design — v3 macOS Style 🍎
 
-- 🌈 **Aurora gradient body** — Sky Blue → Indigo → Violet → Pink flowing across every pointer
-- 🤍 **White border + cyan inner ring** — a double outline that stays crisp on dark *and* light backgrounds
-- 🌑 **Soft drop shadow + top gloss** — real depth, like the pointer floats above your screen
-- 💠 **Cyan glow** — a soft halo that makes the pointer pop
-- 🌀 **Animated gradient spinners** — 12-frame rotating rings for **Busy** and **Working in Background**
+- 🍎 **Authentic macOS look** — sleek, slim pointers, noticeably smaller and lighter than chunky Windows cursors
+- 🖤 **Glossy charcoal-black fill** — a soft gradient with a top sheen, never flat black
+- 🤍 **Thin white outline** — the classic Mac edge, crisp on dark *and* light backgrounds
+- 🧤 **White glove Link hand** — just like macOS, with real separated fingers
+- 🌈 **Spinning beach ball** — the iconic macOS **Busy** cursor, plus a mini beach ball next to the arrow for **Working in Background**
 - 🎯 **Correct hotspots** — every click lands exactly where the tip points
 - 🔍 **Two sizes in every file** (32px + 48px) — sharp on normal and high-DPI displays
+
+> After install, the scheme shows up as **"macOS Style"** in Mouse settings.
 
 ---
 
