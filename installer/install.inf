@@ -1,0 +1,60 @@
+; Pro Premium Cursors — classic INF installer
+; Alternative to the EXE setup: right-click this file -> Install.
+; Copies the cursors to C:\Windows\Cursors\ProPremium and registers the scheme.
+; After installing, select "Pro Premium" in Settings -> Bluetooth & devices ->
+; Mouse -> Additional mouse settings -> Pointers.
+
+[Version]
+signature="$CHICAGO$"
+Provider="akhilesh2412"
+
+[DefaultInstall]
+CopyFiles = Cur.Files
+AddReg = Cur.AddReg
+
+[DestinationDirs]
+Cur.Files = 10, "Cursors\ProPremium"
+
+[SourceDisksNames]
+1 = "Pro Premium Cursors",,1
+
+[SourceDisksFiles]
+Arrow.cur = 1
+Help.cur = 1
+AppStarting.ani = 1
+Wait.ani = 1
+Crosshair.cur = 1
+IBeam.cur = 1
+NWPen.cur = 1
+No.cur = 1
+SizeNS.cur = 1
+SizeWE.cur = 1
+SizeNWSE.cur = 1
+SizeNESW.cur = 1
+SizeAll.cur = 1
+UpArrow.cur = 1
+Hand.cur = 1
+Pin.cur = 1
+Person.cur = 1
+
+[Cur.Files]
+Arrow.cur
+Help.cur
+AppStarting.ani
+Wait.ani
+Crosshair.cur
+IBeam.cur
+NWPen.cur
+No.cur
+SizeNS.cur
+SizeWE.cur
+SizeNWSE.cur
+SizeNESW.cur
+SizeAll.cur
+UpArrow.cur
+Hand.cur
+Pin.cur
+Person.cur
+
+[Cur.AddReg]
+HKCU,"Control Panel\Cursors\Schemes","Pro Premium",0x00000000,"%10%\Cursors\ProPremium\Arrow.cur,%10%\Cursors\ProPremium\Help.cur,%10%\Cursors\ProPremium\AppStarting.ani,%10%\Cursors\ProPremium\Wait.ani,%10%\Cursors\ProPremium\Crosshair.cur,%10%\Cursors\ProPremium\IBeam.cur,%10%\Cursors\ProPremium\NWPen.cur,%10%\Cursors\ProPremium\No.cur,%10%\Cursors\ProPremium\SizeNS.cur,%10%\Cursors\ProPremium\SizeWE.cur,%10%\Cursors\ProPremium\SizeNWSE.cur,%10%\Cursors\ProPremium\SizeNESW.cur,%10%\Cursors\ProPremium\SizeAll.cur,%10%\Cursors\ProPremium\UpArrow.cur,%10%\Cursors\ProPremium\Hand.cur,%10%\Cursors\ProPremium\Pin.cur,%10%\Cursors\ProPremium\Person.cur"
