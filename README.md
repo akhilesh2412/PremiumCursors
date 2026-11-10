@@ -13,7 +13,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Cursors](https://img.shields.io/badge/Cursors-17%20Complete-38BDF8?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0.0-E11D48?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-2.0.0-E11D48?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
 
 <br/>
@@ -65,12 +65,13 @@ Copy the `.cur` / `.ani` files anywhere and assign them one-by-one in *Mouse Pro
 
 ---
 
-## ✨ Design
+## ✨ Design — v2 Aurora Premium
 
-- 🌑 **Dark glass body** — deep navy gradient (`#1E293B → #020617`) on every pointer
-- 🤍 **Crisp white border** — stays visible on dark *and* light backgrounds
-- 💠 **Cyan glow** — a soft blue halo (`#38BDF8`) that makes the pointer pop
-- 🌀 **Animated spinners** — 12-frame rotating rings for **Busy** and **Working in Background**
+- 🌈 **Aurora gradient body** — Sky Blue → Indigo → Violet → Pink flowing across every pointer
+- 🤍 **White border + cyan inner ring** — a double outline that stays crisp on dark *and* light backgrounds
+- 🌑 **Soft drop shadow + top gloss** — real depth, like the pointer floats above your screen
+- 💠 **Cyan glow** — a soft halo that makes the pointer pop
+- 🌀 **Animated gradient spinners** — 12-frame rotating rings for **Busy** and **Working in Background**
 - 🎯 **Correct hotspots** — every click lands exactly where the tip points
 - 🔍 **Two sizes in every file** (32px + 48px) — sharp on normal and high-DPI displays
 
