@@ -1,0 +1,4 @@
+# Built installer (attached to GitHub Releases, not committed)
+installer/*.exe
+installer/app.ico
+__pycache__/
