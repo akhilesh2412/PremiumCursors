@@ -21,7 +21,7 @@ VIAddVersionKey "ProductVersion" "1.0"
 !define MUI_UNICON "app.ico"
 !define MUI_ABORTWARNING
 !define MUI_WELCOMEPAGE_TITLE "Pro Premium Cursors"
-!define MUI_WELCOMEPAGE_TEXT "This will install the Pro Premium cursor scheme (17 cursors: dark glass design, cyan glow, animated Busy spinners) and apply it to your PC right away.$\r$\n$\r$\nYou can switch back any time from Mouse settings -> Pointers."
+!define MUI_WELCOMEPAGE_TEXT "This will install the Pro Premium cursor scheme (17 cursors: sleek macOS style, glossy black pointers, white glove hand, spinning beach-ball Busy) and apply it to your PC right away.$\r$\n$\r$\nYou can switch back any time from Mouse settings -> Pointers."
 !define MUI_FINISHPAGE_TEXT "Done! Your new premium cursors are live.$\r$\nMove your mouse - the new pointer is already active."
 
 !insertmacro MUI_PAGE_WELCOME
@@ -53,10 +53,10 @@ Section "Pro Premium Cursors (required)"
   File "..\cursors\Person.cur"
 
   ; Register the scheme (Mouse Properties -> Pointers dropdown)
-  WriteRegStr HKCU "Control Panel\Cursors\Schemes" "Pro Premium" "$INSTDIR\Arrow.cur,$INSTDIR\Help.cur,$INSTDIR\AppStarting.ani,$INSTDIR\Wait.ani,$INSTDIR\Crosshair.cur,$INSTDIR\IBeam.cur,$INSTDIR\NWPen.cur,$INSTDIR\No.cur,$INSTDIR\SizeNS.cur,$INSTDIR\SizeWE.cur,$INSTDIR\SizeNWSE.cur,$INSTDIR\SizeNESW.cur,$INSTDIR\SizeAll.cur,$INSTDIR\UpArrow.cur,$INSTDIR\Hand.cur,$INSTDIR\Pin.cur,$INSTDIR\Person.cur"
+  WriteRegStr HKCU "Control Panel\Cursors\Schemes" "macOS Style" "$INSTDIR\Arrow.cur,$INSTDIR\Help.cur,$INSTDIR\AppStarting.ani,$INSTDIR\Wait.ani,$INSTDIR\Crosshair.cur,$INSTDIR\IBeam.cur,$INSTDIR\NWPen.cur,$INSTDIR\No.cur,$INSTDIR\SizeNS.cur,$INSTDIR\SizeWE.cur,$INSTDIR\SizeNWSE.cur,$INSTDIR\SizeNESW.cur,$INSTDIR\SizeAll.cur,$INSTDIR\UpArrow.cur,$INSTDIR\Hand.cur,$INSTDIR\Pin.cur,$INSTDIR\Person.cur"
 
   ; Apply it NOW as the current scheme
-  WriteRegStr HKCU "Control Panel\Cursors" "(default)" "Pro Premium"
+  WriteRegStr HKCU "Control Panel\Cursors" "(default)" "macOS Style"
   WriteRegStr HKCU "Control Panel\Cursors" "Arrow" "$INSTDIR\Arrow.cur"
   WriteRegStr HKCU "Control Panel\Cursors" "Help" "$INSTDIR\Help.cur"
   WriteRegStr HKCU "Control Panel\Cursors" "AppStarting" "$INSTDIR\AppStarting.ani"
@@ -86,7 +86,7 @@ SectionEnd
 
 Section "Uninstall"
   ; Restore Windows default scheme marker (values fall back to Aero defaults)
-  DeleteRegValue HKCU "Control Panel\Cursors\Schemes" "Pro Premium"
+  DeleteRegValue HKCU "Control Panel\Cursors\Schemes" "macOS Style"
   WriteRegStr HKCU "Control Panel\Cursors" "(default)" "Windows Aero"
   System::Call 'user32::SystemParametersInfo(i 87, i 0, i 0, i 0)'
   Delete "$INSTDIR\*.cur"
